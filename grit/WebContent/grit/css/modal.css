@@ -1,0 +1,86 @@
+/* reset css */
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, table, tr,
+	th, td, form, fieldset, legend, input, label, select, textarea, button
+	{
+	margin: 0;
+	padding: 0;
+}
+*:focus { outline:none; }
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-size: 12px;
+	color: #333;
+}
+
+ul, li, ol {
+	list-style: none;
+	color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+img, fieldset {
+	border: none;
+	vertical-align: middle;
+}
+
+strong, em, address {
+	font-weight: normal;
+	font-style: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+/* modal css */
+
+.main-login-btn {
+	background-color: #eee;
+	border: 1px solid #aaa;
+	color: #aaa;
+	border-radius: 3px;
+	width: 80px;
+	height: 35px;
+}
+
+/* modal size */
+.content-size1 {
+	width: 300px;
+	height: 450px;
+	padding: 10px;
+}
+.content-size2{
+	width: 600px;
+	height: 450px;
+	padding: 10px;
+}
+/* modal button 초기  css */
+.modal-button {
+	width: 280px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	text-indent: 10px;
+}
+
+/* modal h3 */
+h3 {
+	font-size: 20px;
+	padding: 10px 0 0 10px;
+	margin-top: 10px;
+}
+
+
+/* 유효성 msg */
+.validation_msg {
+	margin: 10px 0;
+	color: red;
+	visibility: visible;
+	text-align: right;
+}
+

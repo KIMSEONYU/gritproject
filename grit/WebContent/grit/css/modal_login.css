@@ -1,0 +1,336 @@
+/* reset css */
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, table, tr,
+	th, td, form, fieldset, legend, input, label, select, textarea, button
+	{
+	margin: 0;
+	padding: 0;
+}
+*:focus { outline:none; }
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-size: 12px;
+	color: #333;
+}
+
+ul, li, ol {
+	list-style: none;
+	color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+img, fieldset {
+	border: none;
+	vertical-align: middle;
+}
+
+strong, em, address {
+	font-weight: normal;
+	font-style: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+/* modal css */
+.modal-title{
+	font-weight:bold;
+}
+.main-login-btn {
+	background-color: #eee;
+	border: 1px solid #aaa;
+	color: #aaa;
+	border-radius: 3px;
+	width: 80px;
+	height: 35px;
+}
+.close{
+	position:absolute;
+	right:20px;
+	top:10px;
+}
+
+/* modal size */
+
+.content-size1 {
+	width: 300px;
+	height: 450px;
+	padding: 10px;
+}
+.content-size2{
+	width: 650px;
+	height: 450px;
+	display:block;
+}
+.intro-size{
+	width: 50%;
+	margin-top:20px;
+	height: 400px;
+	float:left;
+	display:inline-block;
+	margin-top:30px;
+	
+	
+}
+.image-div-size{
+	width:280px;
+	height:166px;
+	border:1px solid gray;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+/* modal button css */
+.modal-button {
+	width: 280px;
+	height: 40px;
+	line-height:40px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	text-indent: 10px;
+}
+.check-img{
+	margin-top:5px;
+	margin-right:12px;	
+	width: 25px;
+	height:25px;
+}
+.findpwd{
+	width:278px;
+	height:18px;
+	margin-top:5px;
+	border-bottom:1px solid gray;
+}
+.kakao{
+	background-color:#fbe300;
+	border:1px solid #fbe300;
+	
+}
+.facebook{
+	background-color:#295396;
+	border:1px solid #295396;
+	color:white;
+}
+.login{
+	background-color: gray;
+	border:1px solid gray;
+	color:white;
+}
+.modal_margin5{
+	margin-top:5px;
+}
+.modal_margin80{
+	margin-top:80px;
+}
+.modal_margin30{
+	margin-top:30px;
+}
+.modal-intro {
+	width: 280px;
+	margin-top:10px;
+	height: 120px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	text-indent: 10px;
+	resize:none;
+}
+
+.button1{
+	width:68px;
+	height:22px;
+	background-color:lightgray;
+	border:1px solid lightgray;
+	text-align:center;
+	margin:3px;
+}
+
+/* modal h3 */
+h3 {
+	font-size: 20px;
+	padding: 10px 0 0 10px;
+	margin-top: 10px;
+}
+h4{
+	font-size: 15px;
+	margin:10px 0;
+	text-indent: 5px;
+}
+
+/* float */
+.float-l{
+	float:left;
+}
+.float-r{
+	float:right;
+}
+
+/* align */
+.align-c{
+	text-align:center;
+}
+.align-l{
+	text-align:left;
+}
+.align-r{
+	text-align:right;
+}
+
+/* display inline block*/
+.display-i-b{
+	display: inline-block;
+}
+/* display none */
+.display-n{
+	display: none;
+}
+/* display inline */
+.display-i{
+	display: inline;
+}
+
+/* 유효성 msg */
+.validation{
+	margin: 10px 0;
+	color: red;
+	text-align: right;
+	font-size: 10px;
+	visibility: hidden;
+}
+
+
+/* position*/
+.wrap{
+    margin:0 auto;
+    height:150px; /* float 문제 해결방법 */
+  	 /* clear:both; float 흐름을 끊을 때 사용한다 */
+}
+.box{
+	background-color:#ccc;
+    width:80px;
+    height:30px;
+    margin:5px;
+    float:left;/* width값 100%가 사라진다 */
+    
+}
+
+
+
+
+/* after Login.jsp */
+.main-btn-small {
+	background-color: #eee;
+	border: 1px solid #aaa;
+	color: #aaa;
+	border-radius: 3px;
+	width: 45px;
+	height: 35px;
+}
+
+/* after Login header*/
+/* main 부분*/
+#after-login-header div{
+	display: inline-block;
+}
+.profile-div{
+	width:80px;
+	
+}
+
+/* modal부분 */
+/* 프로필 header부분 (이미지, 닉네임)*/
+.profile-header{
+	width:100%;
+	height:150px;
+}
+.profile-img{
+	width: 70px;
+	height: 70px;	
+	border-radius: 70px;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+.profile-img-box{
+	text-align:center;
+}
+.profile-nick-box{
+	text-align:center;
+}
+/* 프로필 카테고리 부분*/
+.profile-category-btn{
+	width:30%;
+	height: 25px;
+	color: #aaa;
+	background-color: #eee;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	display: inline-block;
+	line-height: 25px;
+}
+.profile-intro-text{
+	width:100%;
+	height:60px;
+	
+}
+.set-box{
+	float: right;
+}
+.profile-header-btn{
+	flaot:right;
+	width:30px;
+	height:30px;
+	background-color:#eee;
+	color: #aaa;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	cursor:pointer;
+}
+.profile-header-btn-img{
+	width:60%;
+	heigth:60%;
+	margin-top:6px;
+}
+
+/* 컨텐츠 modal 부분*/
+
+
+/* 공지사항 modal 부분*/
+.new-box{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top:-15PX;
+	left: -5PX;
+}
+.notice-box{
+	width:100%;
+	height:20%;
+	background-color: #eee;
+	border: 1px solid #aaa;
+	padding:10px;
+	margin-bottom:20px;
+	position: relative;
+}
+.notice-title{
+	width:100%;
+	height:30px;
+	margin-bottom: 10px;
+	text-align: left;
+	text-indent: 12px;
+	background-color: #fff;
+	line-height: 30px;
+}
+.notice-title span{
+	font-size: 14px;
+}
+.notice-regdate{
+	width:80%;
+	height:25px;
+	line-height:25px;
+	text-align: left;
+	text-indent: 12px;
+	background-color: #fff;
+}

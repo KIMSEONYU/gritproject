@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\user\Desktop\down\Programing\lecture\workspace_list\grit\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+689095576.index
+2496346692.index
+3909249961.index
+1088936762.index
+3608516458.index

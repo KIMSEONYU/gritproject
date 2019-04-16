@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.contents{
+	width: 940px;
+	min-width: 992px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: red;
+	margin-top: 40px;
+}
+.contents .contents1{
+	width: 60%;
+	height: 400px;
+	background-color: lightgray;
+	float: left;
+}
+.contents .contents2{
+	width: 40%;
+	height: 400px;
+	background-color: gray;
+	float: left;
+
+}
